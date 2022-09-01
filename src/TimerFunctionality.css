@@ -1,0 +1,97 @@
+.timer__container {
+  background-color: #452a1a;
+  /* margin-top: 15%;
+  margin-right: 20px; */
+  padding: 2px;
+  width: 225px;
+  margin-left: 10%;
+}
+
+.timerInput__prompt {
+  text-align: center;
+  font-size: 22px;
+  font-family: 'Averia Serif Libre', cursive;
+  color: #d8cbc4;
+  padding-top: 20px;
+  padding-bottom: 12px;
+}
+  
+.timerInput__input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.timer__actualTimer {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: #d8cbc4;
+}
+
+.timer__startButton {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  padding: 1px;
+  font-size: 16px;
+  font-family: 'Averia Serif Libre';
+  background-color: #bca89f;
+  border-radius: 3px;
+  color: #341d17;
+  border-width: 1px;
+  margin-bottom: 20px;
+}
+
+.timer__startButton:hover {
+  background-color: #d7b9a8;
+}
+
+.timer__clearButton {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  padding: 1px;
+  font-size: 16px;
+  font-family: 'Averia Serif Libre';
+  background-color: #bca89f;
+  border-radius: 3px;
+  color: #341d17;
+  border-width: 1px;
+  margin-bottom: 20px;
+}
+
+.timer__clearButton:hover {
+  background-color: #d7b9a8;
+}
+
+.timer__completeMessage {
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Averia Serif Libre', cursive;
+  color: #fbfcf8;
+  padding: 8px;
+  border: 1px solid #3a5e52;
+  border-radius: 1px;
+  width: 65%;
+  /* background-image: linear-gradient(to right, #f2d5cb, #d9efe3); */
+  background-color: #3a5e52;
+  margin-left: 15%;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  animation: fadeIn 1.5s;
+  -webkit-animation: fadeIn 1.5s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+

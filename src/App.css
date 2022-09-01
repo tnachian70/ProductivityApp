@@ -1,38 +1,65 @@
-.App {
+body {
+  background-color: #6a4e42;
+}
+
+.app__container {
+  display: grid;
+  grid-gap: 25px;
+  justify-content: stretch;
+  grid-template-areas: 
+  /* "upperLeft header upperRight"
+  ". pic lowerRight"; */
+  "header header header header header header"
+  "upperLeft upperLeft pic pic pic lowerRight"
+  "lowerLeft lowerLeft pic pic pic lowerRight";
+}
+
+.app__headerWords {
+  text-align: center;
+  grid-area: header;
+  font-size: 50px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-family: 'Averia Serif Libre', cursive;
+  /* color: #38201a; */
+  color: #d8cbc4;
+}
+
+.app__cafeGif {
+  margin-left: 3%;
+  /* margin-right: 8%; */
+  margin-right: 3%;
+  width: 100%;
+  height: 90%;
+  grid-area: pic;
+}
+
+.app__musicContainer {
+  grid-area: lowerLeft;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app__timerContainer {
+  grid-area: upperLeft;
+  z-index: 1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app__taskContainer {
+  grid-area: lowerRight;
+  margin-left: 20%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.app__toDoList {
+  color: #d8cbc4;
+  background-color: #452a1a;
+  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: -17%;
+  margin-right: 3%;
+  margin-top: 40px;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+

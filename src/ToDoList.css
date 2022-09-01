@@ -1,0 +1,113 @@
+.ToDo__header {
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Averia Serif Libre', cursive;
+    color: #d8cbc4;
+    margin-bottom: 3%;
+}
+
+.ToDo__userInput {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+.ToDo__submitTaskButton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Averia Serif Libre';
+    background-color: #bca89f;
+    border-radius: 3px;
+    color: #341d17;
+    border-width: 1px;
+    margin-top: 2.5%;
+    font-size: medium;
+    width: auto;
+}
+
+.ToDo__submitTaskButton:hover {
+    background-color: #d7b9a8;
+}
+
+.ToDo__itemsContainer {
+    display: grid;
+    grid-gap: .3em;
+    text-align: left;
+    margin-left: .2em;
+    margin-top: 5%;
+}
+
+.ToDo_taskItem {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Averia Serif Libre', cursive;
+    color: #fbfcf8;
+    display: inline-block;
+    padding-top: -10%;
+    background-color: #3a5e52;
+    width: 80%;
+}
+
+.ToDo__addItemContainer {
+    text-align: center;
+    margin-top: 0;
+}
+
+.ToDo__notAddingItemsContainer {
+    display: grid;
+    grid-template-areas: 
+    "plus clear";
+    grid-gap: 1px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+.ToDo__plusTaskButton {
+    display: block;
+    margin-left: 75%;
+    margin-right: auto;
+    font-family: 'Averia Serif Libre';
+    background-color: #bca89f;
+    border-radius: 4px;
+    color: #341d17;
+    border-width: 1px;
+    font-size: 20px;
+    padding: .25em;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-weight: bolder;
+    grid-area: plus;
+    width: 1.5em;
+    height: 1.5em;
+    /* align-self: center;
+    justify-self: center; */
+}
+
+.ToDo__plusTaskButton:hover {
+    background-color: #d7b9a8;
+}
+
+.ToDo_clearTasksButton {
+    display: block;
+    margin-left: 20%;
+    margin-right: 30%;
+    font-family: 'Averia Serif Libre';
+    background-color: #bca89f;
+    border-radius: 3px;
+    color: #341d17;
+    border-width: 1px;
+    margin-top: 2.5%;
+    font-size: medium;
+    width: auto;
+    grid-area: clear;
+    width: 80%;
+    /* align-self: center;
+    justify-self: center; */
+}
+
+.ToDo_clearTasksButton:hover {
+    background-color: #d7b9a8;
+}

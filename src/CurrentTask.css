@@ -1,0 +1,93 @@
+.currentTask__container {
+  background-color: #452a1a;
+  padding: 2px;
+  padding-bottom: 10px;
+  margin-left: -17%;
+  margin-right: 3%;
+  width: 105%;
+}
+
+.currentTask__submittedTaskContainer {
+  text-align: center;
+  padding: 8px;
+  padding-bottom: 10px;
+  background-color: #452a1a;
+  margin-left: -17%;
+  margin-right: 3%;
+  width: 105%;
+}
+
+.currentTask__input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+  
+.currentTask__prompt {
+  text-align: center;
+  font-size: 22px;
+  font-family: 'Averia Serif Libre', cursive;
+  color: #d8cbc4;
+  padding-top: 20px;
+  padding-bottom: 12px;
+}
+  
+.currentTask__submitButton {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Averia Serif Libre';
+  background-color: #bca89f;
+  border-radius: 3px;
+  color: #341d17;
+  border-width: 1px;
+  margin-top: 15px;
+  font-size: medium;
+  width: 30%;
+}
+  
+.currentTask__submitButton:hover {
+  background-color: #d7b9a8;
+}
+  
+.currentTask__label {
+  text-align: center;
+  font-size: 22px;
+  font-family: 'Averia Serif Libre', cursive;
+  color: #d8cbc4;
+  margin-bottom: 10px;
+}
+  
+.currentTask__submittedTask {
+  text-align: center;
+  padding: 5px;
+  font-size: 24px;
+  font-family: 'Averia Serif Libre', cursive;
+  color: #fbfcf8;
+  border: 1px solid #3a5e52;
+  border-radius: 1px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-image: linear-gradient(to right, #6a4a3a, #b28e84); */
+  background-color: #3a5e52;
+}
+
+.currentTask__newTaskButton {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Averia Serif Libre';
+  background-color: #bca89f;
+  border-radius: 3px;
+  color: #341d17;
+  border-width: 1px;
+  margin-top: 15px;
+  font-size: medium;
+  width: 40%;
+}
+
+.currentTask__newTaskButton:hover {
+  background-color: #d7b9a8;
+}
+
